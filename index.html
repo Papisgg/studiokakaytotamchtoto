@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Krays</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="img/logo_o.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href = "fonts/stylesheet.css" rel = "stylesheet" type = "text/css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <script src="script.js"></script>
+    
+
+    <header class="header" id="header">
+        <div class="page">
+            <div class="header-inner" id="header-inner">
+
+                <div class="logotip" onclick="location='index.html'">
+                    <img class="studi" src="img/logo.svg" alt="">
+                </div>
+
+                <div class="calls">
+                    <a class="telegram" href="#" onclick="scrollToProjects()">Услуги</a>
+                    <a class="vkontakte" href="#" onclick="scrollInfo()">Проекты</a>
+                    <a class="vkontakte" href="#" onclick="scrollInfo()">О студии</a>
+                    <a class="telegram" href="contacts.html">Контакты</a>
+
+                    <button class="header_zakaz">Заказать дизайн</button>
+                </div>
+
+                <div class="navbar">
+                    <div class="container nav-container">
+                        <input class="checkbox" type="checkbox" name="" id="" />
+                        <div class="hamburger-lines">
+                          <span class="line line1"></span>
+                          <span class="line line3"></span>
+                        </div>
+
+                      <div class="menu-items" id="menu-items">
+                        <li><a href="#" onclick="scrollPrice()">Услуги</a></li>
+                        <li><a href="#" onclick="scrollToProjects()">ПРОЕКТЫ</a></li>
+                        <li><a href="contacts.html">КОНТАКТЫ</a></li>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="header-btn-container" target="_blank" rel="noopener noreferrer">
+                    <a href="https://t.me/studio_krays">
+                        <button class="header-btn" id="header-btn" >
+                            <p>НАПИСАТЬ</p>
+                        </button>
+                    </a>
+                    <a href="https://t.me/studio_krays" target="_blank" rel="noopener noreferrer">
+                        <button class="header-btn-mobile" id="header-btn-mobile">
+                            <p>Заказать дизайн</p>
+                        </button>
+                    </a>
+                  </div>
+
+
+
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+    <div class="page cursor_page">
+      <div class="container">
+        <div class="child">
+          <div class="content">
+            <div>
+            <div id="button" class="HoverButton">
+              <div class="bg"></div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="images">
+      </div>
+      
+      <div class="stamp">
+        <div class="circle">
+          <p id="circle-content"></p>
+        </div>
+        <p></p>
+      </div>
+      
+      <div class="design">
+      </div>
+      
+    </div>
+    <div id="cursor" class="Cursor">
+    </div>
+
+
+        <div class="page">
+            <div class="title">
+                <div class="disign">
+                    <p class="doit">Студия <span class="title_red">Крайс</span> больше, <span class="doit_new_row">чем просто студия</span></p>
+                    
+                </div>
+
+                <div class="opisanie">
+                    <p class="opisanie-text">Cоздаем эстетичные и продуманные сайты, которые отражают<span>ценности вашего бренда и помогают влюбить в вас пользователей.</span></p>
+                </div>
+            </div>
+            <div class="predloz">
+
+                <div class="promo_video" id="promo_video">
+                    <video class="video_item" autoplay loop muted preload="auto" src="video/promo2.mp4"></video>
+                </div>
+
+                <p class="video_text">Мы – студия дизайна, <span class="gray_text">которая специализируется</span> на разработке сайтов, <span class="gray_text">дизайне интерфейсов UX/UI, типографике. Создаём уникальные и функциональные</span> решения, чтобы ваши идеи обрели жизнь.</p>
+
+                
+
+                <div class="predloz-container">
+                    <h1 class="predloz-title" id=" ">Креативный дизайн</h1>
+                    <p class="predloz-text  ">сочетаем проверенные стратегии, глубокую аналитику и креативные концепции, художественный подход, нестандартные решения</p>
+                    <p class="predloz-text  ">наши заказчики — наши партнёры, с которыми мы вместе улучшаем продукт через визуальную коммуникацию</p>
+                    <a class="contact_btn" href="contacts.html">
+                        <button class="zakaz"><p>Заказать дизайн</p>
+                            <div class="zakaz-inner"><img src="img/strelka.svg" alt=""></div>
+                        </button>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="stages" id="stages">
+            <div class="page">
+                <div class="stages-title">
+                    <h1 class="doit">Чем мы занимаемся?</h1>
+                </div>
+                <div class="stage-container">
+                    <div class="stage stage1  ">
+                        <h1 class="stage-title">Дизайн сайтов</h1>
+                        <a class="stage-inner" href="discovery.html">
+                            <p class="stage-text">Собираем информацию <span>о бизнесе, выявляем...</span></p>
+                            <div class="stage_link_cont">
+                                <p class="stage-link" href="discovery.html">Подробнее</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="stage stage2  ">
+                        <h1 class="stage-title">Логотипы</h1>
+                        <a class="stage-inner" href="userflow.html">
+                            <p class="stage-text">Разрабатываем концепции <span>логотипа: макеты...</span></p>
+                            <div class="stage_link_cont">
+                                <p class="stage-link">Подробнее</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="stage stage3  ">
+                        <h1 class="stage-title">Фирменный стиль</h1>
+                        <a class="stage-inner" id="stage3_inner" href="concept.html">
+                            <p class="stage-text">Выбираем цветовую гамму <span>и шрифт...</span></p>
+                            <div class="stage_link_cont">
+                                <p class="stage-link">Подробнее</p>
+                            </div>
+                        </a>
+                    </div>  
+                    <div class="stage stage1  ">
+                        <h1 class="stage-title">Дизайн сайтов</h1>
+                        <a class="stage-inner" href="discovery.html">
+                            <p class="stage-text">Собираем информацию <span>о бизнесе, выявляем...</span></p>
+                            <div class="stage_link_cont">
+                                <p class="stage-link" href="discovery.html">Подробнее</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="stage stage2  ">
+                        <h1 class="stage-title">Логотипы</h1>
+                        <a class="stage-inner" href="userflow.html">
+                            <p class="stage-text">Разрабатываем концепции <span>логотипа: макеты...</span></p>
+                            <div class="stage_link_cont">
+                                <p class="stage-link">Подробнее</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="stage stage3  ">
+                        <h1 class="stage-title">Фирменный стиль</h1>
+                        <a class="stage-inner" id="stage3_inner" href="concept.html">
+                            <p class="stage-text">Выбираем цветовую гамму <span>и шрифт...</span></p>
+                            <div class="stage_link_cont">
+                                <p class="stage-link">Подробнее</p>
+                            </div>
+                        </a>
+                    </div>  
+                </div><!--./Stage-container-->
+            </div><!--./Page-->
+        </div><!--./Stages-->
+        <div class="contacts_container osn">
+            <div class="page">
+                <h1 class="predloz-title">Услуги</h1>
+                    <a class="contact_link_page" href="contacts.html">
+                        <div>
+                            <h1 class="contact_link_title">Сайты любой сложности</h1>
+                            <p class="contact_link_text">Собираем информацию о бизнесе, выявляем требования к сайту и создаем яркий, креативный и функциональный веб-дизайн, который помогает увеличить продажи и достигнуть бизнес-целей.</p>
+                        </div>
+                    <img class="contact_link_img"  src="img/strelka.svg" alt="">
+                </a>
+                <a class="contact_link_page" href="contacts.html">
+                    <div>
+                        <h1 class="contact_link_title">Реклама</h1>
+                        <p class="contact_link_text">Создаём макеты, которые сочетают креативный дизайн и убедительные тексты, чтобы помочь бизнесу увеличить продажи.</p>
+                    </div>
+                    <img class="contact_link_img" src="img/strelka.svg" alt="">
+                    <div class="link_inner">
+                        <div class="zakaz-inner btnscroll2" id="btnscroll4"><img src="img/strelka.svg" alt=""></div> <!-- Кнопка вправо -->
+                    </div>
+                </a>
+                <a class="contact_link_page" href="contacts.html">
+                    <div>
+                        <h1 class="contact_link_title">Фирменный стиль</h1>
+                        <p class="contact_link_text">Выбираем цветовую гамму и шрифт, разрабатываем упаковку, визитки, бланки, баннеры и задаём стандарты использования всех элементов исходя из задач и целей бренда.</p>
+                    </div>
+                    <img class="contact_link_img"  src="img/strelka.svg" alt="">
+                    <div class="link_inner">
+                        <div class="zakaz-inner btnscroll2" id="btnscroll4"><img src="img/strelka.svg" alt=""></div> <!-- Кнопка вправо -->
+                    </div>
+                </a>
+                <a class="contact_link_page" href="contacts.html">
+                    <div>
+                        <h1 class="contact_link_title">Логотипы</h1>
+                        <p class="contact_link_text">Разрабатываем концепции логотипа: макеты, скетчи и цветовые схемы, чтобы определить лучшее решение.</p>
+                    </div>
+                    <img class="contact_link_img"  src="img/strelka.svg" alt="">
+                    <div class="link_inner">
+                        <div class="zakaz-inner btnscroll2" id="btnscroll4"><img src="img/strelka.svg" alt=""></div> <!-- Кнопка вправо -->
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="projects" id="projects">
+            <div class="page">
+                <h1 class="projects-title">Наши проекты</h1>
+                <div class="project-container" id="project_container">
+                     
+                    <div class="project" onclick="location='project_pramiko.html'">
+                        <video class="pramika" src="video/pramika.mp4" autoplay loop muted preload="auto" disablePictureInPicture></video>
+                    </div>
+                    <div class="project transTrand" onclick="location='project_tranTrand.html'"></div>
+                    <div class="project paws" onclick="location='project_paws.html'"></div>
+                    <div class="project art" onclick="location='art.html'"></div>
+                    <div class="project haiprject" onclick="location='hai_project.html'"></div>
+                    <div class="project logofilio" onclick="location='logofolia.html'"></div>
+                </div>
+            </div>
+        </div>
+        <div class="page">
+            <div class="questions_header">
+                <h1 class="predloz-title">Популярные вопросы</h1>
+
+                <button class="questions_header_btn" id="questions_header_btn1">Другие вопросы</button>
+                <button class="questions_header_btn" id="questions_header_btn2">Задать вопрос</button>
+            </div>
+            <div class="questions_container">
+                <div class="question">
+                    <h1 class="question_header">А заказчик может вмешиваться в процесс?
+                        <img class="header_imgmg" src="img/question_img.png" alt="">
+                    </h1>
+                </div>
+                <div class="question_text_cont">
+                    <p class="question_text">Можно сэкономить и нанять, кто же против. Только помните, что разработка сайта - это все же комплексное производство. Как мы уже говорили, нужна помощь верстальщика и программиста. Если вы найдете дизайнера-одиночку, будьте готовы к тому, что остальные работы он отдаст другим - вы даже не будете знать, кто их выполняет. Также велик шанс нарваться на новичка, который еще не набрался опыта и сляпает вам некрасивый непродающий сайт. В студии дизайна вы точно получите гарантии. К тому же все специалисты будут работать в связке и дополняют друг друга. И, конечно, вы сможете проконтролировать ход их работы - без всяких неприятных сюрпризов.</p>
+                </div>
+            </div>
+            <div class="questions_container">
+                <div class="question">
+                    <h1 class="question_header">А заказчик может вмешиваться в процесс?
+                        <img class="header_imgmg" src="img/question_img.png" alt="">
+                    </h1>
+                </div>
+                <div class="question_text_cont">
+                    <p class="question_text">Можно сэкономить и нанять, кто же против. Только помните, что разработка сайта - это все же комплексное производство. Как мы уже говорили, нужна помощь верстальщика и программиста. Если вы найдете дизайнера-одиночку, будьте готовы к тому, что остальные работы он отдаст другим - вы даже не будете знать, кто их выполняет. Также велик шанс нарваться на новичка, который еще не набрался опыта и сляпает вам некрасивый непродающий сайт. В студии дизайна вы точно получите гарантии. К тому же все специалисты будут работать в связке и дополняют друг друга. И, конечно, вы сможете проконтролировать ход их работы - без всяких неприятных сюрпризов.</p>
+                </div>
+            </div>
+            <div class="questions_container">
+                <div class="question">
+                    <h1 class="question_header">А заказчик может вмешиваться в процесс?
+                        <img class="header_imgmg" src="img/question_img.png" alt="">
+                    </h1>
+                </div>
+                <div class="question_text_cont">
+                    <p class="question_text">Можно сэкономить и нанять, кто же против. Только помните, что разработка сайта - это все же комплексное производство. Как мы уже говорили, нужна помощь верстальщика и программиста. Если вы найдете дизайнера-одиночку, будьте готовы к тому, что остальные работы он отдаст другим - вы даже не будете знать, кто их выполняет. Также велик шанс нарваться на новичка, который еще не набрался опыта и сляпает вам некрасивый непродающий сайт. В студии дизайна вы точно получите гарантии. К тому же все специалисты будут работать в связке и дополняют друг друга. И, конечно, вы сможете проконтролировать ход их работы - без всяких неприятных сюрпризов.</p>
+                </div>
+            </div>
+            <div class="questions_container">
+                <div class="question">
+                    <h1 class="question_header">А заказчик может вмешиваться в процесс?
+                        <img class="header_imgmg" src="img/question_img.png" alt="">
+                    </h1>
+                </div>
+                <div class="question_text_cont">
+                    <p class="question_text">Можно сэкономить и нанять, кто же против. Только помните, что разработка сайта - это все же комплексное производство. Как мы уже говорили, нужна помощь верстальщика и программиста. Если вы найдете дизайнера-одиночку, будьте готовы к тому, что остальные работы он отдаст другим - вы даже не будете знать, кто их выполняет. Также велик шанс нарваться на новичка, который еще не набрался опыта и сляпает вам некрасивый непродающий сайт. В студии дизайна вы точно получите гарантии. К тому же все специалисты будут работать в связке и дополняют друг друга. И, конечно, вы сможете проконтролировать ход их работы - без всяких неприятных сюрпризов.</p>
+                </div>
+                <div class="questions_header_btn_cont3_4">
+                    <button class="questions_header_btn" id="questions_header_btn3">Другие вопросы</button>
+                    <button class="questions_header_btn" id="questions_header_btn4">Задать вопрос</button>
+                </div>
+            </div>
+            <script>
+                const headers = document.querySelectorAll('.question_header');
+
+                headers.forEach(header => {
+                    header.addEventListener('click', function() {
+                        // Получаем текстовый блок, соответствующий текущему заголовку
+                        const content = header.closest('.question').nextElementSibling; // Находим следующий элемент после .question
+                        
+                        // Если элемент открыт, закрываем его
+                        if (content.classList.contains('open')) {
+                            content.classList.remove('open');
+                            header.closest('.question').classList.remove('open'); // Удаляем класс open у родительского элемента
+                        } else {
+                            // Закрываем все открытые содержимые
+                            const allContents = document.querySelectorAll('.question_text_cont');
+                            allContents.forEach(c => {
+                                c.classList.remove('open');
+                                c.previousElementSibling.classList.remove('open'); // Удаляем класс open у соответствующего заголовка
+                            });
+
+                            // Открываем текущее содержимое
+                            content.classList.add('open');
+                            header.closest('.question').classList.add('open'); // Добавляем класс open к родительскому элементу
+                            
+                        }
+                    });
+                });
+
+            </script>
+        </div>
+        <div class="page">
+            <div class="contacts_container">
+                <h1 class="predloz-title">Контакты</h1>
+                <a class="contact_link_page" href="#"><span>studiokrays@internet.ru</span>
+                    <div class="contact_img">
+                        <img class="contact_link_img"  src="img/strelka.svg" alt="">
+                    </div>
+                    <img class="strelka_str" src="img/strelka_str.png" alt="">
+                </a>
+                <a class="contact_link_page" href="#"><span>Telegram</span>
+                    <div class="contact_img">
+                        <img class="contact_link_img"  src="img/strelka.svg" alt="">
+                    </div>
+                    <img class="strelka_str" src="img/strelka_str.png" alt="">
+                </a>
+                <a class="contact_link_page" href="#"><span>Vkontakte</span>
+                    <div class="contact_img">
+                        <img class="contact_link_img"  src="img/strelka.svg" alt="">
+                    </div>
+                    <img class="strelka_str" src="img/strelka_str.png" alt="">
+                </a>
+            </div>
+
+        </div>
+        
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="page">
+            <div class="footer-link-container">
+                <div>
+                    <a class="footer-link">Studio Krays</a>
+                    <a class="footer-link">Студия Крайс</a>
+                </div>
+                <div class="footer_last">
+                    <img class="footer_img" src="img/footer_img.svg" alt="">
+                    <a class="footer-link last">Задать вопрос</a>
+                </div>
+            </div>
+            <img src="img/footer.svg" alt="">
+        </div>
+    </footer>
+
+</body>
+</html>
