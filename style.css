@@ -1369,7 +1369,6 @@ transform: translate(-50%, -50%);
 }
 
 .title_red {
-    display: inline-block;
     background-color: #FC4E29;
     color: #0D0D0D;
 }
@@ -2379,7 +2378,11 @@ transform: translate(-50%, -50%);
     rotate: 0deg;
 }
 
-
+.stage-text {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
 
 
 
@@ -3210,6 +3213,26 @@ transform: translate(-50%, -50%);
     .footer-link {
         font-size: 11px;
         margin-right: 13px;
+    }
+
+    .question {
+        padding: 14px 16px;
+    }
+
+    .question.open {
+        padding: 14px 16px;
+    }
+
+    .stage {
+        padding-left: 36px;
+    }
+
+    .stage::after {
+        width: 6px;
+    }
+
+    .question_text_cont {
+        padding: 14px 16px;
     }
 }
 
